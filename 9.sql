@@ -1,0 +1,1 @@
+select track.name from track left join Playlisttrack on (track.trackid = Playlisttrack.trackid) where Playlisttrack.playlistid is null;
