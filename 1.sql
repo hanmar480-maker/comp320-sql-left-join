@@ -1,0 +1,1 @@
+select artist.name from artist left join album on artist.artistId = album.artistId where album.title is null order by artist.name;
